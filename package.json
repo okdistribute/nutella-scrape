@@ -1,19 +1,25 @@
 {
-  "name": "scraper-time",
+  "name": "nutella-scrape",
   "version": "1.0.0",
-  "description": "[![NPM](https://nodei.co/npm/scraper-time.png)](https://nodei.co/npm/scraper-time/)",
+  "description": "[![NPM](https://nodei.co/npm/nutella-scrape.png)](https://nodei.co/npm/nutella-scrape/)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/karissa/scraper-time.git"
+    "url": "https://github.com/karissa/nutella-scrape.git"
   },
   "author": "Karissa McKelvey <karissa@karissamck.com> (http://karissamck.com/)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/karissa/scraper-time/issues"
+    "url": "https://github.com/karissa/nutella-scrape/issues"
   },
-  "homepage": "https://github.com/karissa/scraper-time"
+  "homepage": "https://github.com/karissa/nutella-scrape",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "got": "^4.1.1",
+    "workshopper": "^2.7.0",
+    "workshopper-exercise": "^2.4.0"
+  }
 }
