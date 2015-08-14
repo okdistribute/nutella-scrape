@@ -2,7 +2,7 @@
 
 [![NPM](https://nodei.co/npm/nutella-scrape.png?downloads=true&stars=true)](https://nodei.co/npm/nutella-scrape/)
 
-[!nutella](https://github.com/karissa/nutella-scrape/blob/master/nutella.png)
+![nutella](https://github.com/karissa/nutella-scrape/blob/master/nutella.png)
 
   1. Run `sudo npm install nutella-scrape -g`
   2. Run `nutella-scrape`
