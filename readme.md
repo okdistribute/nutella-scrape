@@ -15,7 +15,6 @@ The DOM (Document Object Model) is an abstract concept describing how we can int
 
 ## TODO
 
-* output
 * parallel
 * spoofing
 * cookies/login walls
