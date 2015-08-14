@@ -1,8 +1,7 @@
 Say we wanted to put the table into a csv file. To output csv, we can use a format stream:
 
 ```js
-var formatData = require('format-data')
-var writer = formatData('csv')
+var writer = require('format-data')('csv')
 
 // write the data
 writer.write({header1: value, header2: value})
