@@ -1,7 +1,7 @@
 {
   "name": "nutella-scrape",
   "version": "1.0.0",
-  "description": "[![NPM](https://nodei.co/npm/nutella-scrape.png)](https://nodei.co/npm/nutella-scrape/)",
+  "description": "a nodeschool workshop to teach scraping",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
