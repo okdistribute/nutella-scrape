@@ -1,5 +1,7 @@
 [
   "Requesting Pages",
   "Parsing HTML",
-  "Traversing Dom"
+  "Traversing Dom",
+  "Collecting Data",
+  "Outputting CSV"
 ]

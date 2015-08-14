@@ -29,6 +29,7 @@
   "homepage": "https://github.com/karissa/nutella-scrape",
   "dependencies": {
     "cheerio": "^0.19.0",
+    "format-data": "^2.1.2",
     "got": "^4.1.1",
     "workshopper": "^2.7.0",
     "workshopper-exercise": "^2.4.0"

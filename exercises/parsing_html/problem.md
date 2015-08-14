@@ -31,7 +31,7 @@ There are a variety of function you can use with the object you get: see `https:
 
 Go to the following link in your browser:
 
-`https://web.archive.org/web/20030910064848/http://www.ed.gov/index.jhtml`
+`http://web.archive.org/web/20120216223019/http://www.reddit.com/r/science/`
 
 Take the file from the last tutorial. Use `got`, `cheerio`, and `console.log` to print out the **readable text** of the page using the `text()` function.
 
