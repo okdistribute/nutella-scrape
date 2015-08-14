@@ -1,6 +1,6 @@
 # nutella-scrape
 
-[![NPM](https://nodei.co/npm/nutella-scrape.png?downloads=true&stars=true)](https://nodei.co/npm/nutella-scrape/)
+[![NPM](https://nodei.co/npm/nutella-scrape.png?downloads=true&stars=true&global=true)](https://nodei.co/npm/nutella-scrape/)
 
 ![nutella](https://github.com/karissa/nutella-scrape/blob/master/nutella.png)
 
