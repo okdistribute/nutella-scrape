@@ -1,0 +1,19 @@
+{
+  "name": "scraper-time",
+  "version": "1.0.0",
+  "description": "[![NPM](https://nodei.co/npm/scraper-time.png)](https://nodei.co/npm/scraper-time/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karissa/scraper-time.git"
+  },
+  "author": "Karissa McKelvey <karissa@karissamck.com> (http://karissamck.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karissa/scraper-time/issues"
+  },
+  "homepage": "https://github.com/karissa/scraper-time"
+}
