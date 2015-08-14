@@ -10,11 +10,22 @@
     "type": "git",
     "url": "https://github.com/karissa/nutella-scrape.git"
   },
+  "bin": "./index.js",
+  "keywords": [
+    "nodeschool",
+    "scraping",
+    "tutorial",
+    "school",
+    "exercise",
+    "help",
+    "scrape"
+  ],
   "author": "Karissa McKelvey <karissa@karissamck.com> (http://karissamck.com/)",
-  "license": "ISC",
+  "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/karissa/nutella-scrape/issues"
   },
+  "preferGlobal": true,
   "homepage": "https://github.com/karissa/nutella-scrape",
   "dependencies": {
     "cheerio": "^0.19.0",
