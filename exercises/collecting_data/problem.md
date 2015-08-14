@@ -1,5 +1,3 @@
-# Output tabular data
-
 Now, we will go through all of the links and write a row that contains the `href` and the `content`.
 
 To get a few different items that are siblings inside of a div, you might want to get that div first, and then `find` items inside of it. For example,
@@ -37,11 +35,11 @@ Let's get the top links on the "science" subreddit from February 16, 2012:
 
 Go to `http://web.archive.org/web/20120216223019/http://www.reddit.com/r/science/` and look at the page source by right-clicking a link and clicking `Inspect Element`
 
-Parse the html to turn the visual table into a csv table, where each link is a row. You'll need to use `map`, and `console.log` each row.
+Parse the html to create a json row for each reddit link. You'll need to use `map`, get the raw data, and `console.log` each row.
 
 Each row should include 3 fields: the visible `score`, the link's `href`, and `contents` (text contents of the `a` tag).
 
-Example row:
+Example:
 ```
 {
   score":15",
