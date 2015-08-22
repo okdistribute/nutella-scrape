@@ -1,6 +1,6 @@
 {
   "name": "nutella-scrape",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "a nodeschool workshop to teach scraping",
   "main": "index.js",
   "scripts": {
