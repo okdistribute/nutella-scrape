@@ -2,27 +2,29 @@ Say we wanted to put the table into a csv file. To output csv, we can use a form
 
 ```js
 var writer = require('format-data')('csv')
+```
+`writer` is now ready to accept rows to write.
 
-// write the data
-writer.write({header1: value, header2: value})
-// etc..
+You can now `write` each row, like so:
 
-// specify where the data goes:
-writer.pipe(process.stdout)
+```
+writer.write({ header1: value, header2: value })
 ```
 
-`writer` is now ready to accept rows to write, and will output them as `csv` when asked to write them out. Finally, it outputs to `stdout` with a `pipe` (works like unix pipes!):
+And then, you can say where the data should go. In this case, we're writing to `process.stdout`:
+```
+writer.pipe(process.stdout)
+```
 
 You could also write to a file, like this:
 
 ```
 var fs = require('fs')
 var file = fs.writeFileStream('output.csv')
-
 writer.pipe(file)
 ```
 
-But right now, we're just going to use `process.stdout` for testing.
+For this exercise, use `process.stdout` for testing.
 
 # Exercise
 
