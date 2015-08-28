@@ -1,7 +1,7 @@
 var got = require('got')
 var cheerio = require('cheerio')
 
-var URL = 'https://web.archive.org/web/20030910064848/http://www.ed.gov/index.jhtml'
+var URL = 'http://web.archive.org/web/20120216223019/http://www.reddit.com/r/science/'
 
 got(URL, function (err, html) {
   var $ = cheerio.load(html)
