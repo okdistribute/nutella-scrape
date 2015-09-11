@@ -20,7 +20,7 @@ You could also write to a file, like this:
 
 ```
 var fs = require('fs')
-var file = fs.writeFileStream('output.csv')
+var file = fs.createWriteStream('output.csv')
 writer.pipe(file)
 ```
 
