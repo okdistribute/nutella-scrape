@@ -13,7 +13,7 @@ Here is an example that prints the html from webpage `http://nodeschool.io`.
 ```js
 var got = require('got')
 
-got('http://nodeschool.io', function (err, html) {
+got('http://nodeschool.io').then(html => {
   console.log(html)
 })
 ```
@@ -25,4 +25,3 @@ Let's look at reddit.com's science subreddit in February, 2012.
 `http://web.archive.org/web/20120216223019/http://www.reddit.com/r/science/`
 
 Use `got`, and `console.log` to print out the contents of the page.
-
