@@ -6,16 +6,19 @@ First, we need to know how to grab the contents of the webpage as html. Create a
 var got = require('got')
 ```
 
-`got` will go get the webpage, and when it's done, it will call the function (err, html). `err` will be an error object (which we can look at) and `html` will have the page contents.
+`got` will go get the webpage, and when it's done, it will call the function (res). res will have the result object which on its body property we will have the html, in case of an error it will be caught in the catch clause.
 
 Here is an example that prints the html from webpage `http://nodeschool.io`.
 
 ```js
 var got = require('got')
 
-got('http://nodeschool.io').then(html => {
-  console.log(html)
-})
+got('http://nodeschool.io')
+  .then(res => {
+    console.log(res.body)
+  }).catch(err => {
+    console.log(err.response.body);
+  });
 ```
 
 # Exercise
