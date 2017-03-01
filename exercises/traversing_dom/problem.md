@@ -23,6 +23,8 @@ $('a').map(function (i, el) {
 
 ## Exercise
 
+Now get this page "https://web.archive.org/web/20030910064848/http://www.ed.gov/index.jhtml"
+
 Get all of the `a` elements on the page and `console.log` the `href` attribute. You can grab their `href` attribute using `attr`.
 
 More info here: `https://github.com/cheeriojs/cheerio#attributes`
